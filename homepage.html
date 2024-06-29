@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet"href="homepage.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Connecting You To Knowledge and Community</h1>
+    </header>
+    <!--<nav >
+        <ul>
+            <li ><a href="#search-book">Search Book</a></li>
+            <li><a href="#suggest-book">Suggest Book</a></li>
+        </ul>
+    </nav>-->
+    <main>
+        <section id="search-books" class="search">
+            <h2>Search Our Library Catalog</h2>
+            <fieldset id="search">
+                <button type ="submit" id="title">Title Search</button>
+                <button type ="submit">Author Search</button>
+                <button type ="submit">Book Code Search</button>
+                <button type="submit">Genre Search</button>
+            </feildset> 
+        </section>
+        <section id="suggest-book" class="suggest">
+            <h2>New Books for Consideration</h2>
+            <fieldset id="suggest-book-form">
+                <label for="title">Title:</label>
+                <input type="text" id ="title" name="title" required>
+                
+                <label for="author">Author:</label>
+                <input type="text" id ="author" name="author" required>
+
+                <label for="isbn">ISBN(International Standard Book Number):</label>
+                <input type="text" id ="isbn" name="isbn" required>
+
+                <label for="author">Publication Date:</label>
+                <input type="text" id ="date" name="date" required>
+
+                <label for="author">Publisher:</label>
+                <input type="text" id ="author" name="author" required>
+
+                <button type ="submit" class="adding">Submit</button>
+
+            </fieldset>
+        </section>
+    </main>
+    <section id="Logout">
+        <button type="logout" class="logout">Logout</button>
+    </section>
+    <script src="homepage.js"></script>
+</body>
+</html>
